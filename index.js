@@ -12,7 +12,6 @@ function upperCaseCustomerName() {
   const leastFavoriteCustomer = 'someone';
 
 function changeLeastFavoriteCustomer() {
-  // Trying to change a constant will result in an error
   leastFavoriteCustomer = 'new least favorite';
 }
 function overwriteBestCustomer() {
